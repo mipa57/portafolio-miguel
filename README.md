@@ -1,52 +1,74 @@
-🧰 Portafolio de Miguel Bejarano
-¡Bienvenido a mi portafolio! Soy Miguel Bejarano, desarrollador web apasionado por crear soluciones eficientes y atractivas. Este repositorio presenta una muestra de mis trabajos y habilidades en desarrollo frontend.
+# 🧰 Portafolio de Miguel Bejarano
 
-📸 Vista Previa
+¡Bienvenido a mi portafolio personal! 👋  
+Soy **Miguel Bejarano**, un desarrollador web creativo y apasionado por la tecnología. En este proyecto muestro una colección de mis habilidades, proyectos y contacto profesional.
 
-Nota: Reemplaza screenshot.png con una imagen real de tu portafolio.
+---
 
-🚀 Tecnologías Utilizadas
-HTML5: Estructura semántica y accesible.
+## 🚀 Tecnologías Usadas
 
-CSS3: Estilos modernos y responsivos.
+- 🧱 **HTML5** — estructura semántica.
+- 🎨 **CSS3** — estilos modernos y adaptables.
+- ⚡ **JavaScript (básico)** — interactividad y funciones simples.
+- 🛠️ **VS Code** — editor de código principal.
+- 🌐 **Git & GitHub** — control de versiones y colaboración.
 
-JavaScript: Interactividad y dinamismo.
+---
 
-Git & GitHub: Control de versiones y colaboración.
+## 🌐 ¿Qué contiene este portafolio?
 
-🧩 Estructura del Proyecto
-pgsql
-Copiar
-Editar
+Este sitio contiene:
+
+- ✅ Una sección de presentación personal.
+- 🖼️ Una galería de proyectos.
+- 📄 Un enlace a mi CV en PDF.
+- 📬 Una sección de contacto con redes sociales.
+
+---
+
+## 📂 Estructura del Proyecto
+
 portafolio-miguel/
-├── index.html
-├── style.css
-├── foto.jpg
-├── cv-miguel-bejarano.pdf
-└── README.md
-📄 Contenido
-Inicio: Presentación personal y objetivos profesionales.
+├── index.html # Página principal
+├── style.css # Estilos del portafolio
+├── foto.jpg # Foto de perfil
+├── cv-miguel-bejarano.pdf # Currículum vitae
+└── README.md # Este archivo
 
-Proyectos: Galería de trabajos destacados con descripciones y enlaces.
-
-Contacto: Formulario y enlaces a redes sociales.
-
-📂 Cómo Ver el Portafolio
-Clona el repositorio:
-
-bash
+yaml
 Copiar
 Editar
-git clone https://github.com/mipa57/portafolio-miguel.git
-Abre el archivo index.html en tu navegador preferido.
+
+---
+
+## 📸 Vista previa
+
+> (Agrega una captura de pantalla del sitio aquí)
+
+---
+
+## 🧪 Cómo ejecutar el proyecto
+
+1. Cloná este repositorio:
+
+   ```bash
+   git clone https://github.com/mipa57/portafolio-miguel.git
+Abrí el archivo index.html en tu navegador favorito.
 
 📬 Contacto
-Email: mipa57125@gmail.com
+💼 LinkedIn: linkedin.com/in/miguelbejarano
 
-LinkedIn: linkedin.com/in/miguelbejarano
+🐱 GitHub: github.com/mipa57
 
-GitHub: github.com/mipa57
+📧 Email: mipa57125@gmail.com
 
 📝 Licencia
 Este proyecto está bajo la licencia MIT.
+Podés usarlo como base para tu propio portafolio. ¡Dale tu toque personal!
+
+Código con cariño por @mipa57 ✨
+
+---
+
+¿Querés que le agregue también insignias de GitHub (como "Hecho con HTML/CSS", "GitHub last commit", etc.) o una sección de proyectos destacados con íconos?
 
