@@ -41,7 +41,7 @@ git clone https://github.com/mipa57/portafolio-miguel.git
 Abre el archivo index.html en tu navegador preferido.
 
 📬 Contacto
-Email: miguel.bejarano@example.com
+Email: mipa57125@gmail.com
 
 LinkedIn: linkedin.com/in/miguelbejarano
 
