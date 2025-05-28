@@ -35,10 +35,6 @@ portafolio-miguel/
 ├── cv-miguel-bejarano.pdf # Currículum vitae
 └── README.md # Este archivo
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 📸 Vista previa
