@@ -52,7 +52,7 @@ portafolio-miguel/
 Abrí el archivo index.html en tu navegador favorito.
 
 📬 Contacto
-💼 LinkedIn: linkedin.com/in/miguelbejarano
+💼 LinkedIn: www.linkedin.com/in/miguel-gustavo-bejarano-patiño-29b7422b5
 
 🐱 GitHub: github.com/mipa57
 
