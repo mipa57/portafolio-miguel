@@ -2,85 +2,82 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Miguel Bejarano | Portafolio</title>
+  <title>Miguel Bejarano | Portafolio Profesional</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-light">
+<body>
+
+<header>
+  <h1>Miguel Bejarano</h1>
+  <nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
 
 <div class="container py-5">
-
   <div class="row">
 
-    <!-- PERFIL -->
-    <div class="col-md-4">
-      <div class="card shadow-sm text-center p-3">
-        <img src="foto.jpg" class="rounded-circle mx-auto mb-3" width="120">
-
+    <div id="perfil" class="col-md-4">
+      <div class="card shadow-sm text-center p-4">
+        <img src="foto.jpg" class="profile-pic mx-auto mb-3" alt="Miguel Bejarano">
         <h4>Miguel Bejarano</h4>
-        <p class="text-muted">Desarrollador Web</p>
-
-        <p>
-          Ayudo a negocios a organizarse con sistemas digitales simples.
+        <p class="text-muted">Desarrollador Web Junior</p>
+        
+        <p class="intro-text">
+          "Apasionado por la tecnología y la optimización de sistemas, enfocado en crear soluciones digitales simples y eficientes." [cite: 4, 5]
         </p>
 
-        <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn btn-primary" download>
+        <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn btn-primary w-100" download>
           Descargar CV
         </a>
       </div>
     </div>
 
-    <!-- CONTENIDO -->
     <div class="col-md-8">
-
-      <!-- PROYECTO -->
-      <div class="card shadow-sm mb-4 p-3">
-        <h5>🧰 Sistema para Ferretería</h5>
-
+      
+      <div id="proyectos" class="proyecto shadow-sm">
+        <h5>🧰 Sistema de Inventario para Ferretería</h5>
         <p>
-          Sistema web para gestionar inventario, ventas y productos.
-          Diseñado para evitar pérdidas y mejorar el control.
+          Aplicación web funcional para el control de productos, ventas y stock, optimizando la gestión de negocios locales. [cite: 14]
         </p>
-
-        <a href="https://inventariofontend.netlify.app/" class="btn btn-success btn-sm" target="_blank">
-          Ver demo
-        </a>
-
-        <a href="https://github.com/mipa57/inventario-app" class="btn btn-outline-dark btn-sm" target="_blank">
-          Código
-        </a>
+        <div class="d-flex justify-content-center gap-2">
+          <a href="https://inventariofontend.netlify.app/" target="_blank">Ver Demo</a>
+          <a href="https://github.com/mipa57/inventario-app" target="_blank" style="background-color: #333;">Código en GitHub</a>
+        </div>
       </div>
 
-      <!-- HABILIDADES -->
-      <div class="card shadow-sm mb-4 p-3">
-        <h5>⚙️ Habilidades</h5>
-
-        <span class="badge bg-primary">HTML</span>
-        <span class="badge bg-primary">CSS</span>
-        <span class="badge bg-primary">JavaScript</span>
-        <span class="badge bg-success">Python</span>
-        <span class="badge bg-success">Java</span>
-        <span class="badge bg-dark">Git</span>
+      <div class="card shadow-sm p-4">
+        <h5 class="text-center mb-3">⚙️ Habilidades Técnicas</h5>
+        <ul class="skills-list">
+          <li><strong>Lenguajes:</strong> HTML5, CSS3, JavaScript, Python 3.11 [cite: 8]</li>
+          <li><strong>Bases de Datos:</strong> Gestión y optimización de MySQL [cite: 9]</li>
+          <li><strong>Herramientas:</strong> Git, GitHub, IntelliJ IDEA, VS Code [cite: 10]</li>
+          <li><strong>Sistemas:</strong> Optimización de rendimiento en Windows </li>
+        </ul>
       </div>
 
-      <!-- CONTACTO -->
-      <div class="card shadow-sm p-3">
-        <h5>📬 Contacto</h5>
-
-        <p class="text-muted">📧 mipa57125@gmail.com</p>
-
-        <a href="https://github.com/mipa57" target="_blank">GitHub</a><br>
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      <div id="contacto" class="card shadow-sm p-4 text-center">
+        <h5>📬 Contacto Profesional</h5>
+        <p class="text-muted">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="mailto:mipa57125@gmail.com">📧 Email</a> [cite: 2]
+          <a href="https://github.com/mipa57" target="_blank">🐱 GitHub</a>
+          <a href="https://www.linkedin.com/in/miguel-gustavo-bejarano-patiño-29b7422b5" target="_blank">💼 LinkedIn</a>
+        </div>
       </div>
 
     </div>
-
   </div>
-
 </div>
+
+<footer class="mt-5">
+  <p>© 2026 Miguel Bejarano - Desarrollador Web de Cali, Colombia</p> [cite: 2]
+</footer>
 
 </body>
 </html>
