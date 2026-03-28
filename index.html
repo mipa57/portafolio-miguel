@@ -2,123 +2,88 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Miguel Bejarano | Soluciones Digitales y Optimización de Procesos</title>
+  <title>Miguel Bejarano | Soluciones Digitales</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <header class="hero-header d-flex align-items-center justify-content-center text-center">
-    <div class="container">
-      <div class="mb-3">
-        <span class="badge bg-orange text-white p-2"><i class="fab fa-html5"></i> HTML5</span>
-        <span class="badge bg-blue text-white p-2"><i class="fab fa-css3-alt"></i> CSS3</span>
-      </div>
-      
-      <h1 class="display-3 fw-bold text-white">Transformo Procesos Operativos en Sistemas Digitales Eficientes</h1>
-      <p class="lead text-light mb-4">Lógica técnica y optimización aplicadas a la rentabilidad de tu negocio.</p>
-      
-      <div class="d-flex justify-content-center gap-3">
-        <a href="#proyectos" class="btn btn-warning btn-lg fw-bold px-4 shadow">
-          <i class="fas fa-rocket"></i> Ver Soluciones
-        </a>
-        <a href="#contacto" class="btn btn-outline-light btn-lg px-4">
-          <i class="fas fa-envelope"></i> Hablemos
-        </a>
-      </div>
+<header class="hero-header d-flex align-items-center justify-content-center text-center">
+  <div class="container">
+    <h1 class="fw-bold text-white">Transformo Procesos Operativos en Sistemas Digitales Eficientes</h1>
+    <p class="lead text-light mb-4">Lógica técnica aplicada a la rentabilidad de tu negocio.</p>
+    <div class="d-flex justify-content-center gap-2">
+      <a href="#proyectos" class="btn btn-warning btn-lg fw-bold shadow-sm">Ver Soluciones</a>
+      <a href="#contacto" class="btn btn-outline-light btn-lg">Hablemos</a>
     </div>
-  </header>
+  </div>
+</header>
 
-<div class="container py-5">
+<div class="container py-4">
   <div class="row">
-
-    <div id="perfil" class="col-md-4">
-      <div class="card shadow hero-card text-center p-4">
-        <img src="foto.jpg" class="profile-pic mx-auto mb-3" alt="Miguel Bejarano - Desarrollador Web">
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center p-4 mb-4">
+        <img src="foto.jpg" class="profile-pic mx-auto mb-3" alt="Miguel Bejarano">
         <h4>Miguel Bejarano</h4>
-        <p class="text-muted">Especialista en Lógica y Automatización</p>
-        
+        <p class="text-muted small">Especialista en Automatización</p>
         <p class="intro-text">
-          "Con una sólida base en lógica y gestión de entornos, mi enfoque no es solo programar, sino <strong>resolver cuellos de botella operativos</strong>. Mi disciplina y adaptabilidad garantizan sistemas confiables y de alto rendimiento."
+          "Mi enfoque es resolver <strong>cuellos de botella operativos</strong> mediante sistemas confiables y de alto rendimiento."
         </p>
-
-        <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn btn-primary w-100 btn-cv" download>
-          <i class="fas fa-file-download"></i> Descargar Propuesta de Valor (CV)
-        </a>
+        <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn btn-primary w-100 fw-bold" download>Descargar CV</a>
       </div>
     </div>
 
     <div class="col-md-8">
-      
-      <div id="proyectos" class="proyecto-hero shadow">
-        <div class="row align-items-center">
-          <div class="col-lg-8">
-            <h5 class="text-success"><i class="fas fa-tools"></i> Solución Operativa: Sistema de Inventario</h5>
-            <p>
-              Diseñé y desplegué una aplicación web funcional para el <strong>control total de productos, ventas y stock</strong>. Esta solución elimina errores manuales y previene pérdidas, optimizando la rentabilidad de negocios locales.
-            </p>
-          </div>
-          <div class="col-lg-4 text-center">
-            <a href="https://inventariofontend.netlify.app/" target="_blank" class="btn btn-success btn-sm w-100 mb-2">Ver Demo Funcional</a>
-            <a href="https://github.com/mipa57/inventario-app" target="_blank" class="btn btn-outline-dark btn-sm w-100">Código en GitHub</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card shadow p-4 mb-4">
-        <h5 class="text-center mb-4"><i class="fas fa-cogs"></i> Stack Técnico Orientado a Resultados</h5>
-        <div class="row text-center">
-          <div class="col-6 col-md-3 mb-3">
-            <div class="skill-badge">
-              <i class="fab fa-python fa-2x text-primary"></i>
-              <p>Python (Lógica)</p>
+      <div class="card shadow-sm p-4 mb-4">
+        <h5 class="mb-4 text-center border-bottom pb-2"><i class="fas fa-layer-group"></i> Stack Técnico Orientado a Resultados</h5>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="skill-box">
+              <i class="fab fa-html5 fa-2x text-danger"></i>
+              <h6>HTML5</h6>
+              <p class="small text-muted">Estructura semántica robusta para asegurar que la información sea accesible y fácil de navegar.</p>
             </div>
           </div>
-          <div class="col-6 col-md-3 mb-3">
-            <div class="skill-badge">
+          <div class="col-md-6">
+            <div class="skill-box">
+              <i class="fab fa-css3-alt fa-2x text-primary"></i>
+              <h6>CSS3</h6>
+              <p class="small text-muted">Diseño adaptable y profesional que garantiza una excelente experiencia de usuario en cualquier dispositivo.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill-box">
+              <i class="fab fa-python fa-2x text-info"></i>
+              <h6>Python</h6>
+              <p class="small text-muted">Desarrollo de lógica compleja y automatización de tareas repetitivas para ahorrar tiempo operativo.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill-box">
               <i class="fas fa-database fa-2x text-success"></i>
-              <p>MySQL (Datos)</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 mb-3">
-            <div class="skill-badge">
-              <i class="fab fa-js fa-2x text-warning"></i>
-              <p>JavaScript (Interfaz)</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 mb-3">
-            <div class="skill-badge">
-              <i class="fab fa-git-alt fa-2x text-danger"></i>
-              <p>Git (Control)</p>
+              <h6>MySQL</h6>
+              <p class="small text-muted">Gestión de datos segura y organizada para mantener el control total sobre la información crítica.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div id="contacto" class="card shadow p-4 text-center bg-light">
-        <h5>📬 ¿Listo para optimizar tu sistema?</h5>
-        <p class="lead">Contáctame y definamos la solución que tu negocio necesita.</p>
-        <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
-          <a href="mailto:mipa57125@gmail.com" class="btn btn-outline-primary btn-lg">📧 mipa57125@gmail.com</a>
-          <a href="https://www.linkedin.com/in/miguel-gustavo-bejarano-patiño-29b7422b5" target="_blank" class="btn btn-primary btn-lg"><i class="fab fa-linkedin"></i> Conectar en LinkedIn</a>
+      <div id="proyectos" class="proyecto-hero shadow-sm">
+        <h5 class="text-success"><i class="fas fa-check-circle"></i> Solución: Sistema para Ferretería</h5>
+        <p class="small">Control total de productos y ventas diseñado para eliminar pérdidas manuales y optimizar el stock en tiempo real.</p>
+        <div class="d-flex gap-2">
+          <a href="https://inventariofontend.netlify.app/" target="_blank" class="btn btn-success btn-sm">Ver Demo</a>
+          <a href="https://github.com/mipa57/inventario-app" target="_blank" class="btn btn-outline-dark btn-sm">Código</a>
         </div>
       </div>
-
     </div>
   </div>
 </div>
 
-<footer class="mt-5 py-4">
-  <div class="container text-center">
-    <p class="mb-0">© 2026 Miguel Bejarano - Soluciones Digitales desde Cali, Colombia.</p>
-    <small class="text-muted">Disciplina. Lógica. Eficiencia.</small>
-  </div>
+<footer class="text-center py-4 bg-dark text-white-50">
+  <p class="mb-0">© 2026 Miguel Bejarano - Cali, Colombia</p>
 </footer>
 
 </body>
