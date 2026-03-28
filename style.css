@@ -161,3 +161,29 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.skills-list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
