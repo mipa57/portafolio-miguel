@@ -1,139 +1,128 @@
-/* Configuración General */
+/* Configuración General y Paleta Profesional */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #eef2f7, #f8f9fa);
-  color: #333;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #2c3e50;
+  overflow-x: hidden;
 }
 
-/* Encabezado y Navegación */
-header {
-  background-color: #007BFF;
+/* Hero Header: Impacto Inmediato */
+.hero-header {
+  background: linear-gradient(135deg, #0056b3 0%, #007BFF 100%);
   color: white;
-  padding: 20px;
+  padding: 100px 0;
   text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-bottom: 5px solid #ffc107; /* Toque de amarillo para energía */
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  font-weight: bold;
+.hero-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
 }
 
-nav {
-  margin-top: 10px;
+.hero-header .lead {
+  font-size: 1.4rem;
+  opacity: 0.9;
 }
 
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+/* Tarjeta de Perfil "Hero" */
+.hero-card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  background: white;
+  position: relative;
+  top: -50px; /* Efecto de superposición */
+  z-index: 10;
 }
 
-nav a:hover {
-  color: #ffc107;
-}
-
-/* Componentes de Perfil */
 .profile-pic {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #007BFF;
-  transition: transform 0.3s ease;
-}
-
-.profile-pic:hover {
-  transform: scale(1.05);
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .intro-text {
-  font-size: 0.95rem;
-  margin: 20px 0;
-  font-style: italic;
-  color: #555;
-  line-height: 1.6;
+  font-size: 1rem;
+  margin: 25px 0;
+  line-height: 1.7;
+  color: #4a5568;
 }
 
-/* Tarjetas y Proyectos */
-.card {
-  border: none;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.intro-text strong {
+  color: #007BFF;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.1) !important;
-}
-
-.proyecto {
-  background-color: white;
-  padding: 30px;
-  margin-bottom: 25px;
-  border-radius: 12px;
-  text-align: center;
-  border-left: 5px solid #28a745; /* Verde para destacar éxito/proyecto */
-}
-
-.proyecto h5 {
+.btn-cv {
+  padding: 12px;
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 1.1rem;
+  border-radius: 10px;
 }
 
-.proyecto a {
-  display: inline-block;
-  margin-top: 15px;
-  color: white;
-  background-color: #007BFF;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: opacity 0.3s;
+/* Proyecto Destacado: La Solución Vende */
+.proyecto-hero {
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border-left: 8px solid #28a745; /* Verde para éxito/solución */
+  transition: transform 0.2s ease;
 }
 
-.proyecto a:hover {
-  opacity: 0.85;
+.proyecto-hero:hover {
+  transform: scale(1.02);
 }
 
-/* Listas y Footer */
-.skills-list {
-  list-style: none;
-  padding: 0;
+.proyecto-hero h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.skills-list li {
-  padding: 8px 0;
-  border-bottom: 1px solid #eee;
+/* Badges de Habilidades */
+.skill-badge {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
 }
 
-.skills-list li:last-child {
-  border-bottom: none;
+.skill-badge:hover {
+  background-color: #e6f0ff;
+  border-color: #007BFF;
+  transform: translateY(-3px);
 }
 
-footer {
-  background-color: #343a40;
-  color: #aaa;
-  text-align: center;
-  padding: 30px;
+.skill-badge p {
+  margin-top: 10px;
+  font-weight: 600;
   font-size: 0.9rem;
 }
 
-/* Botón de CV personalizado */
-.btn-primary {
-  background-color: #007BFF;
-  border: none;
-  padding: 12px;
-  font-weight: bold;
+/* Footer Profesional */
+footer {
+  background-color: #1a202c;
+  color: #cbd5e0;
+}
+
+/* Ajustes de Responsividad */
+@media (max-width: 768px) {
+  .hero-header {
+    padding: 60px 0 120px 0;
+  }
+  .hero-header h1 {
+    font-size: 2.2rem;
+  }
+  .hero-card {
+    top: -80px;
+    margin-bottom: 20px;
+  }
 }
