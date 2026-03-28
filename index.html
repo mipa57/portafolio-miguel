@@ -2,121 +2,85 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Miguel Bejarano | Desarrollador Web</title>
+  <title>Miguel Bejarano | Portafolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
 
-<header class="header">
-  <div class="container">
-    <h1>Miguel Bejarano</h1>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </div>
-</header>
+<div class="container py-5">
 
-<!-- HERO -->
-<section id="inicio" class="section hero">
-  <div class="container hero-content">
-    
-    <div class="hero-text">
-      <h2>🛠️ Ayudo a negocios a dejar el caos manual y organizarse con sistemas digitales</h2>
+  <div class="row">
 
-      <p>
-        Desarrollo soluciones web simples y funcionales para mejorar el control de inventario,
-        ventas y procesos en pequeños negocios.
-      </p>
+    <!-- PERFIL -->
+    <div class="col-md-4">
+      <div class="card shadow-sm text-center p-3">
+        <img src="foto.jpg" class="rounded-circle mx-auto mb-3" width="120">
 
-      <a href="#proyectos" class="btn">Ver proyectos</a>
-    </div>
-
-    <div class="hero-img">
-      <img src="foto.jpg" alt="Miguel Bejarano">
-    </div>
-
-  </div>
-</section>
-
-<!-- PROYECTOS -->
-<section id="proyectos" class="section">
-  <div class="container">
-    <h2>Proyecto Destacado</h2>
-
-    <div class="proyecto">
-      <div class="proyecto-text">
-        <h3>Sistema de Gestión para Ferretería</h3>
+        <h4>Miguel Bejarano</h4>
+        <p class="text-muted">Desarrollador Web</p>
 
         <p>
-          Muchos negocios pequeños pierden dinero por no tener control en su inventario.
-          Este sistema permite gestionar productos, ventas y stock de forma clara y sencilla.
+          Ayudo a negocios a organizarse con sistemas digitales simples.
         </p>
 
-        <a href="https://inventariofontend.netlify.app/" target="_blank" class="btn">Ver demo</a>
-        <a href="https://github.com/mipa57/inventario-app" target="_blank" class="btn-outline">Código</a>
+        <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn btn-primary" download>
+          Descargar CV
+        </a>
       </div>
     </div>
 
+    <!-- CONTENIDO -->
+    <div class="col-md-8">
+
+      <!-- PROYECTO -->
+      <div class="card shadow-sm mb-4 p-3">
+        <h5>🧰 Sistema para Ferretería</h5>
+
+        <p>
+          Sistema web para gestionar inventario, ventas y productos.
+          Diseñado para evitar pérdidas y mejorar el control.
+        </p>
+
+        <a href="https://inventariofontend.netlify.app/" class="btn btn-success btn-sm" target="_blank">
+          Ver demo
+        </a>
+
+        <a href="https://github.com/mipa57/inventario-app" class="btn btn-outline-dark btn-sm" target="_blank">
+          Código
+        </a>
+      </div>
+
+      <!-- HABILIDADES -->
+      <div class="card shadow-sm mb-4 p-3">
+        <h5>⚙️ Habilidades</h5>
+
+        <span class="badge bg-primary">HTML</span>
+        <span class="badge bg-primary">CSS</span>
+        <span class="badge bg-primary">JavaScript</span>
+        <span class="badge bg-success">Python</span>
+        <span class="badge bg-success">Java</span>
+        <span class="badge bg-dark">Git</span>
+      </div>
+
+      <!-- CONTACTO -->
+      <div class="card shadow-sm p-3">
+        <h5>📬 Contacto</h5>
+
+        <p>Email: mipa57125@gmail.com</p>
+
+        <a href="https://github.com/mipa57" target="_blank">GitHub</a><br>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+
+    </div>
+
   </div>
-</section>
 
-<!-- HABILIDADES -->
-<section id="habilidades" class="section bg-light">
-  <div class="container">
-    <h2>Habilidades</h2>
-
-    <ul class="skills">
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python (Flask)</li>
-      <li>Java (Spring Boot)</li>
-      <li>MySQL, MongoDB</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </div>
-</section>
-
-<!-- SOBRE MI -->
-<section class="section">
-  <div class="container">
-    <h2>Sobre mí</h2>
-
-    <p>
-      Soy desarrollador web enfocado en resolver problemas reales de negocio.
-      Me especializo en transformar procesos manuales en sistemas digitales simples y eficientes.
-    </p>
-
-    <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn" download>Descargar CV</a>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="section cta">
-  <div class="container">
-    <h2>🚀 ¿Tienes una idea o negocio?</h2>
-    <p>Puedo ayudarte a convertirlo en una solución digital funcional.</p>
-    <a href="mailto:mipa57125@gmail.com" class="btn">Contáctame</a>
-  </div>
-</section>
-
-<!-- CONTACTO -->
-<section id="contacto" class="section">
-  <div class="container">
-    <h2>Contacto</h2>
-
-    <p>Email: mipa57125@gmail.com</p>
-    <p><a href="https://github.com/mipa57" target="_blank">GitHub</a></p>
-    <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Miguel Bejarano</p>
-</footer>
+</div>
 
 </body>
 </html>
