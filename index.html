@@ -9,126 +9,114 @@
 
 <body>
 
-<header>
-  <h1>Miguel Bejarano</h1>
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+<header class="header">
+  <div class="container">
+    <h1>Miguel Bejarano</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
 </header>
 
 <!-- HERO -->
-<section id="inicio">
-  <h2>🛠️ Desarrollo soluciones web para negocios reales</h2>
-  <img src="foto.jpg" class="profile-pic">
+<section id="inicio" class="section hero">
+  <div class="container hero-content">
+    
+    <div class="hero-text">
+      <h2>🛠️ Ayudo a negocios a dejar el caos manual y organizarse con sistemas digitales</h2>
 
-  <p class="intro-text">
-    Ayudo a pequeños negocios a pasar del caos manual a sistemas digitales simples, eficientes y funcionales.
-  </p>
+      <p>
+        Desarrollo soluciones web simples y funcionales para mejorar el control de inventario,
+        ventas y procesos en pequeños negocios.
+      </p>
 
-  <section>
-    <h2>📈 Mi enfoque</h2>
-    <p>
-    No solo desarrollo páginas web. Me enfoco en resolver problemas reales.
-    He trabajado en entornos donde la organización y el control son clave,
-    por eso mis soluciones buscan ser prácticas, claras y útiles desde el primer día.
-    </p>
-  </section>
+      <a href="#proyectos" class="btn">Ver proyectos</a>
+    </div>
 
-  <a href="#proyectos" class="btn">🚀 Ver proyectos</a>
+    <div class="hero-img">
+      <img src="foto.jpg" alt="Miguel Bejarano">
+    </div>
+
+  </div>
 </section>
 
 <!-- PROYECTOS -->
-<section id="proyectos">
-  <h2>💼 Proyecto Destacado</h2>
+<section id="proyectos" class="section">
+  <div class="container">
+    <h2>Proyecto Destacado</h2>
 
-  <div class="proyecto">
-    <h3>🧰 Sistema de Gestión para Ferretería</h3>
+    <div class="proyecto">
+      <div class="proyecto-text">
+        <h3>Sistema de Gestión para Ferretería</h3>
 
-    <p><strong>Problema:</strong> Inventario manual, pérdidas y desorden.</p>
-    <p><strong>Solución:</strong> Sistema web que controla productos, ventas y stock en tiempo real.</p>
+        <p>
+          Muchos negocios pequeños pierden dinero por no tener control en su inventario.
+          Este sistema permite gestionar productos, ventas y stock de forma clara y sencilla.
+        </p>
 
-    <a href="https://inventariofontend.netlify.app/" target="_blank">🌐 Ver Demo</a>
-    <a href="https://github.com/mipa57/inventario-app" target="_blank">📁 Ver Código</a>
-  </div>
+        <a href="https://inventariofontend.netlify.app/" target="_blank" class="btn">Ver demo</a>
+        <a href="https://github.com/mipa57/inventario-app" target="_blank" class="btn-outline">Código</a>
+      </div>
+    </div>
 
-  <div class="proyecto">
-    <h3>🌐 Portafolio Personal</h3>
-    <p>Sitio web desarrollado para mostrar proyectos, habilidades y contacto profesional.</p>
-
-    <a href="https://portafolio-desarrollador.netlify.app/" target="_blank">🌐 Ver Sitio</a>
-    <a href="https://github.com/mipa57/portafolio-miguel" target="_blank">📁 Ver Código</a>
   </div>
 </section>
 
 <!-- HABILIDADES -->
-<section id="habilidades">
-  <h2>⚙️ Habilidades</h2>
+<section id="habilidades" class="section bg-light">
+  <div class="container">
+    <h2>Habilidades</h2>
 
-  <ul class="skills-list">
-    <li>HTML5, CSS3, JavaScript</li>
-    <li>Python (Flask)</li>
-    <li>Java (Spring Boot)</li>
-    <li>MySQL, MongoDB</li>
-    <li>Git & GitHub</li>
-  </ul>
+    <ul class="skills">
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python (Flask)</li>
+      <li>Java (Spring Boot)</li>
+      <li>MySQL, MongoDB</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
 </section>
 
 <!-- SOBRE MI -->
-<section id="sobre-mi">
-  <h2>👨‍💻 Sobre mí</h2>
+<section class="section">
+  <div class="container">
+    <h2>Sobre mí</h2>
 
-  <p>
-    Soy desarrollador web enfocado en crear soluciones prácticas para negocios reales.
-    Mi objetivo es transformar procesos manuales y desorganizados en sistemas digitales simples, eficientes y fáciles de usar.
-    </p>
-    
     <p>
-    Tengo experiencia desarrollando aplicaciones web para el control de inventarios y gestión de información, utilizando tecnologías como HTML, CSS, JavaScript, Python y Java.
-    </p>
-    
-    <p>
-    Vengo de un entorno de trabajo disciplinado, lo que me ha permitido desarrollar responsabilidad, enfoque y compromiso en cada proyecto que realizo.
+      Soy desarrollador web enfocado en resolver problemas reales de negocio.
+      Me especializo en transformar procesos manuales en sistemas digitales simples y eficientes.
     </p>
 
-  <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn" download>📄 Descargar CV</a>
+    <a href="CV_Miguel_Bejarano_Pro.pdf" class="btn" download>Descargar CV</a>
+  </div>
 </section>
 
 <!-- CTA -->
-<section id="cta">
-  <h2>🚀 ¿Tienes una idea o negocio?</h2>
-  <p>Puedo ayudarte a convertirlo en una solución digital funcional.</p>
-
-  <a href="mailto:mipa57125@gmail.com" class="btn">📩 Contáctame</a>
+<section class="section cta">
+  <div class="container">
+    <h2>🚀 ¿Tienes una idea o negocio?</h2>
+    <p>Puedo ayudarte a convertirlo en una solución digital funcional.</p>
+    <a href="mailto:mipa57125@gmail.com" class="btn">Contáctame</a>
+  </div>
 </section>
 
 <!-- CONTACTO -->
-<section id="contacto">
-  <h2>📬 Contacto</h2>
+<section id="contacto" class="section">
+  <div class="container">
+    <h2>Contacto</h2>
 
-  <a href="mailto:mipa57125@gmail.com">📧 Email</a><br>
-  <a href="https://www.linkedin.com/in/miguel-gustavo-bejarano-pati%C3%B1o-29b7422b5/" target="_blank">💼 LinkedIn</a><br>
-  <a href="https://github.com/mipa57" target="_blank">🐱 GitHub</a>
-</section>
-
-<section>
-  <h2>🚀 ¿Tienes un negocio o una idea?</h2>
-  <p>
-  Puedo ayudarte a convertirla en una solución digital funcional que te ahorre tiempo y mejore tu control.
-  </p>
-
-  <a href="mailto:mipa57125@gmail.com" class="btn">Contáctame</a>
+    <p>Email: mipa57125@gmail.com</p>
+    <p><a href="https://github.com/mipa57" target="_blank">GitHub</a></p>
+    <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+  </div>
 </section>
 
 <footer>
   <p>© 2026 Miguel Bejarano</p>
 </footer>
-
-<h3 style="text-align:center; color:#555;">
-  Ayudo a pequeños negocios a organizarse y crecer usando tecnología simple.
-  </h3>
 
 </body>
 </html>

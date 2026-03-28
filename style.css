@@ -187,3 +187,71 @@ footer {
   margin: 10px 0;
   font-size: 1.1rem;
 }
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.proyecto {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 10px 0;
+}
+
+.bg-light {
+  background: #f4f4f4;
+}
+
+.btn {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  border: 1px solid #007BFF;
+  padding: 10px 20px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.cta {
+  background: #007BFF;
+  color: white;
+}
