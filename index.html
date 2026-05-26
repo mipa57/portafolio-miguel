@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+
 <!-- NAV -->
 <nav>
   <span class="nav-logo">MB<span class="dot">.</span></span>
@@ -21,7 +21,7 @@
     <a href="#contacto">Contacto</a>
   </div>
 </nav>
- 
+
 <!-- HERO -->
 <section class="hero">
   <div class="hero-grid">
@@ -49,7 +49,7 @@
   </div>
   <div class="hero-scroll">scroll <i class="fas fa-arrow-down"></i></div>
 </section>
- 
+
 <!-- SOBRE MÍ -->
 <section class="about" id="sobre-mi">
   <div class="container">
@@ -77,7 +77,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- STACK -->
 <section class="stack-section" id="stack">
   <div class="container">
@@ -117,13 +117,13 @@
     </div>
   </div>
 </section>
- 
+
 <!-- PROYECTOS -->
 <section class="proyectos-section" id="proyectos">
   <div class="container">
     <div class="section-label">/ proyectos</div>
     <h2 class="section-title">Sistemas construidos y desplegados</h2>
- 
+
     <!-- Proyecto 1 - Destacado -->
     <div class="proyecto-card destacado">
       <div class="proyecto-header">
@@ -149,7 +149,7 @@
         </a>
       </div>
     </div>
- 
+
     <!-- Proyecto 2 -->
     <div class="proyecto-card">
       <div class="proyecto-header">
@@ -174,10 +174,10 @@
         </a>
       </div>
     </div>
- 
+
   </div>
 </section>
- 
+
 <!-- PROCESO -->
 <section class="proceso-section">
   <div class="container">
@@ -204,7 +204,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- CONTACTO -->
 <section class="contacto-section" id="contacto">
   <div class="container">
@@ -215,13 +215,21 @@
         <p>Estoy buscando mi primer empleo formal como desarrollador y también acepto proyectos freelance para empresas en Cali. Respondo en menos de 24 horas.</p>
       </div>
       <div class="contacto-actions">
-        <a href="mailto:mipa57125@gmail.com" class="contacto-item">
+        <div class="contacto-item contacto-email-row">
           <i class="fas fa-envelope"></i>
           <div>
             <span class="contacto-label">Email</span>
             <span class="contacto-value">mipa57125@gmail.com</span>
           </div>
-        </a>
+          <div class="email-actions">
+            <a href="mailto:mipa57125@gmail.com" class="email-btn" title="Abrir cliente de correo">
+              <i class="fas fa-paper-plane"></i>
+            </a>
+            <button class="email-btn" onclick="navigator.clipboard.writeText('mipa57125@gmail.com').then(()=>{this.innerHTML='<i class=&quot;fas fa-check&quot;></i>';setTimeout(()=>{this.innerHTML='<i class=&quot;fas fa-copy&quot;></i>'},1500)})" title="Copiar correo">
+              <i class="fas fa-copy"></i>
+            </button>
+          </div>
+        </div>
         <a href="https://www.linkedin.com/in/miguel-gustavo-bejarano-patiño-29b7422b5" target="_blank" class="contacto-item">
           <i class="fab fa-linkedin"></i>
           <div>
@@ -247,11 +255,11 @@
     </div>
   </div>
 </section>
- 
+
 <footer>
   <span>© 2026 Miguel Bejarano — Cali, Colombia</span>
   <span>Construido con HTML, CSS y café.</span>
 </footer>
- 
+
 </body>
 </html>
